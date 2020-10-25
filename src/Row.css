@@ -1,0 +1,48 @@
+.row {
+    margin: 20px 0;
+}
+
+.row > h2 {
+    margin-left: 40px;
+}
+
+.row__posters{
+    display:flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.row__posters::-webkit-scrollbar {
+    display: none;
+}
+
+.row__poster{
+    width:100%;
+    max-height:300px;
+    margin: 10px;
+    object-fit: contain;
+    transition: transform 0.4s;
+
+}
+
+.row__poster:hover {
+    transform: scale(1.09);
+}
+
+.row__slideContainer {
+    display: flex;
+    align-items: center;
+}
+
+.row__slideIcon{
+    padding:140px 5px 160px 5px;
+    color: rgb(253, 253, 253) ;
+
+}
+
+.row__slideIcon:hover {
+    background-color: rgb(201, 201, 201);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    color: rgb(77, 77, 77) ;
+}

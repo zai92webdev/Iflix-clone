@@ -1,0 +1,49 @@
+.footer {
+    width: 100%;
+    margin: 0;
+    padding: 20px 0;
+    background-color: rgba(247, 247, 247, 0.562) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer h1{
+    font-size: 4rem;
+    
+}
+.footer p{
+    font-size: 13px;
+}
+
+.footer h1, p, li{
+    color: rgb(172, 172, 172);
+}
+
+.footer__icon {
+    display: flex;
+}
+
+.footer__iconButton {
+    background-color: rgb(221, 221, 221) !important;
+    margin: 10px !important;
+    
+}
+
+
+.footer__link{
+    display: flex;
+    
+    padding: 4rem;
+}
+
+.footer__list {
+    margin: 0 40px;
+}
+
+.footer__list > li {
+    list-style: none;
+    font-size: 12px;
+    line-height: 2rem;
+}

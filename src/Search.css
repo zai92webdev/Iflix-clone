@@ -1,0 +1,58 @@
+.search{
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: rgba(229, 230, 238, 0.781);
+}
+
+.search__navigation{
+    display: flex;
+    height: 3.7rem;
+    background-color: white;
+}
+
+.search__arrowButton{
+    margin: 0;
+    padding: 0;
+    color: grey;
+}
+
+.search__form{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.search__posterCard {
+    height: 210px;
+    object-fit: contain;
+    padding: 10px;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+}
+
+.search__posterCard:hover {
+    transform: scale(1.1);
+}
+
+.search__posters {
+    margin: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.search__poster {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-right: 0.1rem;
+    min-height: 240px;
+    
+}
+
+.search__poster > span {
+    font-size: small;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
